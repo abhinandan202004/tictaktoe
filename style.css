@@ -1,0 +1,18 @@
+h1{
+    font-size: 4.5rem;
+    background: linear-gradient(to right, rgb(178, 69, 214) ,rgb(212, 62, 194),rgb(231, 135, 221),rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-justify: center;
+    text-align: center;
+}
+body{
+    background: black;
+}
+.nav{
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.2),rgba(255,255,255,0.1) );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.28);
+    border-radius: 10px;
+}
