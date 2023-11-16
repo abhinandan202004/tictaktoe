@@ -1,10 +1,17 @@
+  @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500&family=Kdam+Thmor+Pro&family=Poppins:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500&family=Kdam+Thmor+Pro&family=Poppins:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500&family=Kdam+Thmor+Pro&family=PT+Serif:wght@700&family=Poppins:wght@200&display=swap');
+
+
 h1{
-    font-size: 4.5rem;
+    font-size: 5.0vw;
     background: linear-gradient(to right, rgb(178, 69, 214) ,rgb(212, 62, 194),rgb(231, 135, 221),rgb(0, 0, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-justify: center;
     text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
 }
 body{
     background: black;
@@ -15,4 +22,28 @@ body{
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.28);
     border-radius: 10px;
+}
+.game{
+     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.btext{
+    color: beige;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: 'PT Serif', serif;
+
+}
+.container div{
+    border: 5px solid black;
+}
+.btext{
+    color: black;
+    font-size: 7vw;
+    font-weight: ;
+    align-items: center;
 }
