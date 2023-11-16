@@ -1,6 +1,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500&family=Kdam+Thmor+Pro&family=Poppins:wght@200&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500&family=Kdam+Thmor+Pro&family=Poppins:wght@200&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500&family=Kdam+Thmor+Pro&family=PT+Serif:wght@700&family=Poppins:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500&family=Kdam+Thmor+Pro&family=PT+Serif:wght@700&family=Poppins:wght@200&display=swap');
 
 
 h1{
@@ -28,9 +29,6 @@ body{
     display: flex;
     justify-content: center;
 }
-.btext{
-    color: beige;
-}
 .container{
     display: grid;
     grid-template-rows: repeat(3,10vw);
@@ -41,9 +39,38 @@ body{
 .container div{
     border: 5px solid black;
 }
-.btext{
+.boxtext{
     color: black;
-    font-size: 7vw;
-    font-weight: ;
+    font-size: 8vw;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgb(237, 146, 228);
+}
+.status {
+    padding-left: 20pt;
+    font-family: 'PT Serif', serif;
+}
+button{
+    margin-top: 40px;
+    margin-left: 100px;
+}   
+.br-0{
+    border-right: 0;
+}     
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
 }
