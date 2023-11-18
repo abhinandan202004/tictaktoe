@@ -56,9 +56,22 @@ body{
 }
 .announcer {
     padding-left: 20pt;
+    font-size: larger;
     font-family: 'PT Serif', serif;
 }
 button{
+    width: 5vw;
+    height: 2.5vw;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 44px;
+    border-radius: 30px;
+    font: 1em sans-serif;
 }   
+.img-box img{
+    width: 0px;
+    transition: width 1s ease-in-out;
+}
+
+.result{
+    margin-left: 5vw;
+}

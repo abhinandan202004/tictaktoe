@@ -29,6 +29,7 @@ const winCheck = () => {
         if((boxtext[e[0]].innerText===boxtext[e[1]].innerText) && (boxtext[e[2]].innerText===boxtext[e[1]].innerText) && (boxtext[e[0]].innerText !== "")){
         document.querySelector('.announcer').innerText = boxtext[e[0]].innerText + " Won";
         isGameover = true;
+        document.querySelector('.img-box').getElementsByTagName('img')[0].style.width = "20vw";
         }
     })
 
