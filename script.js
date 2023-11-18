@@ -1,6 +1,7 @@
 console.log("Welcome to Tik-Tak-Toe ")
 let audioturn = new Audio("ting.mp3")
 let gameover = new Audio("winner.wav")
+let game = new Audio("game.mp3")
 let turn = "X"
 let isGameover = false;
 
@@ -32,8 +33,18 @@ const winCheck = () => {
     })
 
 }
+//reset functionality
+function restart(){
+    board = [
+        [' ',' ',' '],
+        [' ',' ',' '],
+        [' ',' ',' ']
+    ]
+
+}
 
 //logic
+//game.play();
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element => {
     let boxtext = element.querySelector('.boxtext');
