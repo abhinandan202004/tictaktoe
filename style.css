@@ -5,13 +5,15 @@
 
 
 h1{
-    font-size: 5.0vw;
+    font-size: 3.0vw;
     background: linear-gradient(to right, rgb(178, 69, 214) ,rgb(212, 62, 194),rgb(231, 135, 221),rgb(0, 0, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-justify: center;
     text-align: center;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 body{
@@ -23,20 +25,29 @@ body{
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.28);
     border-radius: 10px;
+
 }
 .game{
-     background-color: aquamarine;
+     background: linear-gradient(to right, rgb(120, 4, 120),rgb(167, 15, 167),rgb(187, 7, 187),rgb(214, 10, 214),rgb(243, 4, 243));
     display: flex;
     justify-content: center;
     border-radius: 5pt;
     padding: 3vmax;
+    margin-top: 120px;
 }
 .container{
     display: grid;
     grid-template-rows: repeat(3,8vw);
     grid-template-columns: repeat(3, 8vw);
     font-family: 'PT Serif', serif;
+    padding: 20px;
+    
+    
+    
 
+}
+#container{
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.289),rgba(255,255,255,0) );
 
 }
 .container div{
@@ -58,9 +69,12 @@ body{
 .box:hover{
     background-color: rgb(237, 146, 228);
 }
+#button:hover{
+    background-color: rgb(237, 146, 228);
+}
 .announcer {
     padding-left: 20pt;
-    font-size: larger;
+    font-size: 20pt;
     font-family: 'PT Serif', serif;
 }
 button{
@@ -86,7 +100,7 @@ button{
         
     }
     button{
-        width: 13vw;
+        width: 15vw;
         height: 7vw;
         font-size: 1em;
         margin-top: 20px;
@@ -101,7 +115,8 @@ button{
         grid-template-rows: repeat(3,20vw);
         grid-template-columns: repeat(3, 20vw);
         font-family: 'PT Serif', serif;
-        margin-top: 35px;
+        padding: 15px; 
+
     }
     .result{
         margin-top: 50pt;

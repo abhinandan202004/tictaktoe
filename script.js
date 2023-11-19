@@ -38,7 +38,7 @@ const winCheck = () => {
 
 
 //logic
-//game.play();
+game.play();
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element => {
     let boxtext = element.querySelector('.boxtext');
