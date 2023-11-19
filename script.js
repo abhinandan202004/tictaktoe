@@ -8,7 +8,7 @@ let isGameover = false;
 // function to decide whose turn it is
 const changeTurn = () =>{
 
-    return turn === "X"? "0": "X"
+    return turn === "X"? "O": "X"
 }
 
 //function to check winner
@@ -34,15 +34,8 @@ const winCheck = () => {
     })
 
 }
-//reset functionality
-function restart(){
-    board = [
-        [' ',' ',' '],
-        [' ',' ',' '],
-        [' ',' ',' ']
-    ]
 
-}
+
 
 //logic
 //game.play();
@@ -60,5 +53,17 @@ Array.from(boxes).forEach(element => {
             }
         }
     });
+});
+button.addEventListener('click' ,() => {
+    let boxtexts = document.querySelectorAll('.boxtext')
+    Array.from(boxtexts).forEach(Element => {
+        Element.innerText=""
+    });
+    turn = "X";
+    isGameover = false;
+    document.getElementsByClassName("announcer")[0].innerText = "Turn for " + turn;
+    document.querySelector('.img-box').getElementsByTagName('img')[0].style.width = "0vw";
+
+
 });
 

@@ -65,7 +65,8 @@ button{
     margin-top: 40px;
     margin-left: 44px;
     border-radius: 30px;
-    font: 1em sans-serif;
+    font: 1vw sans-serif;
+    cursor: pointer;
 }   
 .img-box img{
     width: 0px;
