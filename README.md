@@ -11,7 +11,7 @@ Welcome to the TIC-TAC-TOE website! This web application allows users to play th
 
 ## Demo
 
-[Live Demo](#) - https://abhinandan202004.github.io/tictaktoe/
+Check out the website for yourself - https://abhinandan202004.github.io/tictaktoe/
 
 ## Screenshots
 
@@ -35,7 +35,7 @@ Welcome to the TIC-TAC-TOE website! This web application allows users to play th
 1. Clone or download the repository to your local machine.
 2. Open the `index.html` file in a web browser to play the game locally.
 
-```bash
+``bash
 git clone https://github.com/abhinandan202004/tictaktoe.git
 cd tictaktoe
 
