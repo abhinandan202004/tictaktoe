@@ -52,6 +52,9 @@ Array.from(boxes).forEach(element => {
             document.getElementsByClassName("announcer")[0].innerText = "Turn for " + turn;
             }
         }
+        else{
+            document.getElementsByClassName("announcer").innerText = "DRAW";
+        }
     });
 });
 button.addEventListener('click' ,() => {
